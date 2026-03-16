@@ -1,5 +1,7 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://localhost:27017/ZellleTransactionOrder
+      uri: mongodb://localhost:27017/ZelleTransactionOrder
 
+server:
+  port: 9095
