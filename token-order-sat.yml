@@ -1,7 +1,4 @@
 spring:
-  data:
-    mongodb:
-      uri: mongodb://localhost:27017/ZellleTransactionOrder
-
-server:
-  port: 9095
+  mongodb:
+    uri: mongodb://localhost:27017
+    database: ZellleTransactionOrder
