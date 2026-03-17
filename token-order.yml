@@ -6,7 +6,13 @@ spring:
       uri: mongodb://localhost:27017/ZellleTransactionOrder
 logging:
   level:
-    root: DEBUG
+    com:
+      transactionorder: DEBUG
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %logger{36} - %msg%n"
+  file:
+    name: logs/transactionorder.log
+    path: ./logs
 management:
   endpoints:
     web:
