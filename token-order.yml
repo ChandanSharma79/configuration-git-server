@@ -1,10 +1,10 @@
 spring:
   application:
     name: token-order
+spring:
   data:
     mongodb:
-      uri: mongodb://localhost:27017
-      database: ZellleTransactionOrder
+      uri: mongodb://localhost:27017/ZellleTransactionOrder
 logging:
   level:
     root: DEBUG
