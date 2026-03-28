@@ -1,9 +1,7 @@
 spring:
   application:
     name: token-order
-  data:
-    mongodb:
-      uri: mongodb://localhost:27017/ZellleTransactionOrder
+ 
 logging:
   level:
     com:
@@ -23,3 +21,13 @@ management:
       show-details: always
 server:
   port: 9095
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    register-with-eureka: true
+    fetch-registry: true
+
+  instance:
+    prefer-ip-address: true
