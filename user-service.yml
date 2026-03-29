@@ -19,7 +19,7 @@ management:
   endpoint:
     health:
       show-details: always
-   health:
+  health:
     circuitbreakers:
       enabled: true 
 server:
