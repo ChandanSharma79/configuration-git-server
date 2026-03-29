@@ -19,6 +19,9 @@ management:
   endpoint:
     health:
       show-details: always
+   health:
+    circuitbreakers:
+      enabled: true 
 server:
   port: 9095
 
